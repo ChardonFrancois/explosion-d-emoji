@@ -7,7 +7,7 @@ btnConfettis.addEventListener('click', fiesta);
 
 function fiesta(){
 
-    for(let i = 0; i < 69 ; i++){
+    for(let i = 0; i < 70 ; i++){
         const confetti = document.createElement('div');
         confetti.innerText = emojis[Math.floor(Math.random() *  emojis.length)];
         containerSlot.appendChild(confetti);
